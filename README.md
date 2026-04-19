@@ -1,1 +1,2 @@
 # 8_BIT_REGISTER
+This project covers the full journey of building a computer, from soldering a custom LM555 clock generator PCB to designing a silicon-ready 8-bit register. I started by prototyping the architecture on a breadboard to get the ALU and RAM timing right, then moved into Cadence Virtuoso to build the register at the transistor level. To ensure the design was actually manufacturable, I ran the full physical verification suite, including DRC, LVS, and Parasitic Extraction, making it ready for IC integration.
