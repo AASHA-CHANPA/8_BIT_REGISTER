@@ -5,16 +5,16 @@ The register supports bidirectional interaction with a shared system bus through
 
 A. Features
 
--Stores 8 bits of data 
--Rising-edge-triggered operation
--Built using master-slave D Flip-Flops
--BUS0 to BUS7 : Shared data bus inputs
--A0 to A7 : Register outputs to ALU
--W : Write Enable
--R : Read Enable
--CLK : Clock Input
--RESET : Synchronous Reset
--Total Pins: 20
+- Stores 8 bits of data 
+- Rising-edge-triggered operation
+- Built using master-slave D Flip-Flops
+- BUS0 to BUS7 : Shared data bus inputs
+- A0 to A7 : Register outputs to ALU
+- W : Write Enable
+- R : Read Enable
+- CLK : Clock Input
+- RESET : Synchronous Reset
+- Total Pins: 20
 
 B. Functional Description
 
