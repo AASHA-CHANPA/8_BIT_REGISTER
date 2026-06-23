@@ -5,7 +5,7 @@ The register supports bidirectional interaction with a shared system bus through
 
 A. Features
 
--Stores 8 bits of data
+-Stores 8 bits of data \n
 -Rising-edge-triggered operation
 -Built using master-slave D Flip-Flops
 -BUS0 to BUS7 : Shared data bus inputs
