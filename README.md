@@ -39,65 +39,54 @@ Bus contention is avoided
 3) Reset Operation
 A synchronous reset signal clears all stored bits and initializes the register to zero.
 
-Design Hierarchy
+C. Design Hierarchy
+
 The complete register was developed hierarchically from reusable transistor-level building blocks.
-1-Bit Register Cell
-The 1-bit register consists of:
-D Flip-Flop with Reset
-Tri-State Buffer
-NAND Gates
-Inverter
-Hierarchy:
-D_latch → D_ff_using_latch → D_ff_reset → 1_bit_register
 
-Layout Implementation
-1-Bit Register Layout
-The basic register cell integrates:
-D Flip-Flop
-Tri-State Buffer
-Control Logic
-Routing and Power Rails
-8-Bit Register Layout
+The 1-bit register consists of:-
+
+1)D Flip-Flop with Reset
+2)Tri-State Buffer
+3)NAND Gates
+4)Inverter
+
+Hierarchy:-
+D_latch => D_ff_using_latch => D_ff_reset => 1_bit_register
+
+D. Layout Implementation
+
+1) 1-Bit Register Layout:- 
+
+The basic register cell integrates:-
+- D Flip-Flop
+- Tri-State Buffer
+- Control Logic
+- Routing and Power Rails
+
+8-Bit Register Layout:-
 The complete 8-bit register was created by replicating and integrating eight verified 1-bit register cells.
-The final layout includes:
-Shared control lines
-Bus routing
-Output routing
-Clock distribution network
 
-Verification Flow
-The design was verified through:
-Functional Simulation
-Layout Design
-Design Rule Check (DRC)
-Layout Versus Schematic (LVS)
-Post-Layout Simulation
+The final layout includes:-
+- Shared control lines
+- Bus routing
+- Output routing
+- Clock distribution network
 
-Timing Results
-Stage
-Delay
-Pre-Layout Simulation
-0.34 ns
-Post-Layout Simulation
-0.81 ns
+E. Verification Flow
+
+The design was verified through:-
+
+1) Functional Simulation
+2) Layout Design
+3) Design Rule Check (DRC)
+4) Layout Versus Schematic (LVS)
+5) Post-Layout Simulation
+
+F. Timing Results (Delay)
+
+Pre-Layout Simulation - 0.34 ns
+Post-Layout Simulation - 0.81 ns
 
 The increase in delay after extraction reflects realistic parasitic effects introduced by interconnects and layout routing.
 
-Tools Used
-Cadence Virtuoso
-Spectre Simulator
 
-Learning Outcomes
-Full-custom digital IC design
-Master-Slave D Flip-Flop implementation
-Tri-State Bus Architecture
-Layout design and routing
-DRC and LVS verification
-Post-layout timing analysis
-Hierarchical ASIC design methodology
-
-Future Improvements
-Clock-gating for reduced power consumption
-Multi-register bank implementation
-Integration with ALU and control unit
-Complete ASIC implementation of an 8-bit processor
