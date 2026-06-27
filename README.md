@@ -27,7 +27,7 @@ Data is captured on the rising edge of the clock
 When W is inactive:-
 The register retains its previously stored value
 
-2) Read Operation
+2) Read Operation:-
 
 When the Read Enable (R) signal is active:-
 Stored data is driven onto the shared system bus through tri-state buffers
