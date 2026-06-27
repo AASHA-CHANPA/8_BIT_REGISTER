@@ -33,8 +33,7 @@ When the Read Enable (R) signal is active:-
 Stored data is driven onto the shared system bus through tri-state buffers
 
 When R is inactive:-
-Outputs enter a High-Impedance (Z) state
-Bus contention is avoided
+Outputs enter a High-Impedance (Z) state and bus contention is avoided
 
 3) Reset Operation
 A synchronous reset signal clears all stored bits and initializes the register to zero.
