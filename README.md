@@ -36,6 +36,7 @@ When R is inactive:-
 Outputs enter a High-Impedance (Z) state and bus contention is avoided
 
 3) Reset Operation
+   
 A synchronous reset signal clears all stored bits and initializes the register to zero.
 
 C. Design Hierarchy
