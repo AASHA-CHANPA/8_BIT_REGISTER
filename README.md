@@ -65,7 +65,7 @@ D. Layout Implementation
 - Control Logic
 - Routing and Power Rails
 
-8-Bit Register Layout:-
+2) 8-Bit Register Layout:-
 The complete 8-bit register was created by replicating and integrating eight verified 1-bit register cells.
 
 The final layout includes:-
