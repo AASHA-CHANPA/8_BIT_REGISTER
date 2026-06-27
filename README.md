@@ -58,9 +58,8 @@ D_latch => D_ff_using_latch => D_ff_reset => 1_bit_register
 
 D. Layout Implementation
 
-1) 1-Bit Register Layout:- 
+1) 1-Bit Register Layout integrates:- 
 
-The basic register cell integrates:-
 - D Flip-Flop
 - Tri-State Buffer
 - Control Logic
