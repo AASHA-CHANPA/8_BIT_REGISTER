@@ -45,8 +45,11 @@ The complete register was developed hierarchically from reusable transistor-leve
 The 1-bit register consists of:-
 
 1)D Flip-Flop with Reset
+
 2)Tri-State Buffer
+
 3)NAND Gates
+
 4)Inverter
 
 Hierarchy:-
